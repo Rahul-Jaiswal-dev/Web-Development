@@ -1,0 +1,2 @@
+This is a basic web development getting starter app. These web pages are written in html,css,javascript and jQuery. This app
+is based on https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/
