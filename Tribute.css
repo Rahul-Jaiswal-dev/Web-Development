@@ -16,7 +16,6 @@
   grid-area:right-side;
   color:white;
   font-size: 22px;
-  /* font-weight: bold; */
 }
 .grid-rightmost-side
 {
@@ -25,7 +24,6 @@
   grid-area:rightmost-side;
   color:white;
   font-size: 22px;
-  /* font-weight: bold; */
 }
 .grid-center
 {
@@ -41,5 +39,30 @@
   display:grid;
   grid-template-areas:'left-side center-side center-side center-side center-side center-side center-side center-side center-side center-side  right-side rightmost-side';
   background-color: black;
-  width:auto;
+}
+
+@media screen and (max-width:800px)
+{
+  .grid-container
+  {
+    display:grid;
+    grid-template-areas:'left-side center-side center-side center-side right-side right-side rightmost-side';
+    background-color: black;
+  }
+  .grid-left-side,.grid-rightmost-side,.grid-right-side,.grid-center
+{
+  padding: 4px;
+}
+.grid-right-side
+{
+  text-align: center;
+}
+.grid-rightmost-side
+{
+  padding-top: 14px;
+}
+.grid-left-side
+{
+  padding-top: 7px;
+}
 }
