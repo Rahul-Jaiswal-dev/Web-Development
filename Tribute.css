@@ -32,7 +32,6 @@
   grid-area:center-side;
   color:white;
   font-size: 22px;
-  font-weight: bold;
 }
 .grid-container
 {
@@ -46,7 +45,7 @@
   .grid-container
   {
     display:grid;
-    grid-template-areas:'left-side center-side center-side center-side right-side rightmost-side';
+    grid-template-areas:'left-side center-side right-side rightmost-side';
     background-color: black;
   }
   .grid-left-side,.grid-rightmost-side,.grid-right-side,.grid-center
