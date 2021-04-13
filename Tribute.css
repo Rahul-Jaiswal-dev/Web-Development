@@ -45,7 +45,7 @@
   .grid-container
   {
     display:grid;
-    grid-template-areas:'left-side center-side right-side rightmost-side';
+    grid-template-areas:'left-side center-side center-side right-side right-side rightmost-side';
     background-color: black;
   }
   .grid-left-side,.grid-rightmost-side,.grid-right-side,.grid-center
@@ -56,10 +56,10 @@
 {
   text-align: center;
 }
-.grid-rightmost-side
+/* .grid-rightmost-side
 {
   padding-top: 14px;
-}
+} */
 .grid-left-side
 {
   padding-top: 7px;
