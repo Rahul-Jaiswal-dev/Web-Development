@@ -46,7 +46,7 @@
 @media screen and (max-width: 800px) {
   .grid-container {
     display: grid;
-    grid-template-areas: "left-side center-side center-side right-side rightmost-side";
+    grid-template-areas: "left-side center-side right-side rightmost-side";
     background-color: black;
   }
   .grid-left-side,
@@ -55,11 +55,12 @@
   .grid-center {
     padding: 2px;
   }
-  .grid-right-side {
+  .grid-right-side,
+  .grid-center {
     text-align: center;
   }
   .grid-left-side {
-    padding-top: 10px;
+    padding-top: 6px;
   }
   #download {
     margin-top: 6px;
